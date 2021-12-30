@@ -1,2 +1,3 @@
 # Similarity_Checker_Tool
-
+# Using Linux 
+For Checking the Similarity between two files  pipe method is used along with diff and grep to find the similarity between two files . First diff was used with its attributes , here width is set so that only the common lines are visible once. Side-by-side shows the both the in columns .Further this output  which is right now the difference between the two files is piped to the grep method. In the grep method , -n shows the number of the line to be displayed and in the -v  is used to invert the match . Now with the help of this , the lines that are same with be shown Also “[|<>]” pattern is also not visible with the help of grep -v. 
