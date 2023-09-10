@@ -40,6 +40,7 @@ To check the similarity between two text files, run the following command:
    ./compare.sh file1.txt file2.txt
 
 
+
 ## Example
 Suppose you have two text files, file1.txt and file2.txt. To check their similarity, run:
     ```bash
