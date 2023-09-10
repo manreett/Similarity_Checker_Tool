@@ -1,10 +1,5 @@
 # Similarity Checker Tool
 
-A tool for comparing the similarity between two files using the `diff` and `grep` commands. This tool is designed for checking the differences between two text-based files and highlighting the matching lines.
-
-
-## Introduction
-
 The Similarity Checker Tool is a command-line utility that helps you find the common lines between two text files. It uses the `diff` command to find the differences and then filters the output using `grep` to display only the matching lines.
 
 ## Prerequisites
