@@ -1,3 +1,30 @@
-# Similarity_Checker_Tool
-# Using Linux 
-For Checking the Similarity between two files  pipe method is used along with diff and grep to find the similarity between two files . First diff was used with its attributes , here width is set so that only the common lines are visible once. Side-by-side shows the both the in columns .Further this output  which is right now the difference between the two files is piped to the grep method. In the grep method , -n shows the number of the line to be displayed and in the -v  is used to invert the match . Now with the help of this , the lines that are same with be shown Also “[|<>]” pattern is also not visible with the help of grep -v. 
+# Similarity Checker Tool
+
+A tool for comparing the similarity between two files using the `diff` and `grep` commands. This tool is designed for checking the differences between two text-based files and highlighting the matching lines.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Examples](#examples)
+
+## Introduction
+
+The Similarity Checker Tool is a command-line utility that helps you find the common lines between two text files. It uses the `diff` command to find the differences and then filters the output using `grep` to display only the matching lines.
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- A Unix-like operating system (Linux, macOS) or Windows Subsystem for Linux (WSL) for running the command-line tools.
+
+## Installation
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/yourusername/Similarity_Checker_Tool.git
+
+
