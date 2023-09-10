@@ -36,7 +36,7 @@ Before you begin, ensure you have met the following requirements:
 
 To check the similarity between two text files, run the following command:
 
-   ```bash
+        ```bash
    ./compare.sh file1.txt file2.txt
       
 
