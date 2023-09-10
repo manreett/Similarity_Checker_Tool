@@ -46,7 +46,6 @@ To check the similarity between two text files, run the following command:
 
 Suppose you have two text files, file1.txt and file2.txt. To check their similarity, run:
 
-      ```bash
       ./compare.sh file1.txt file2.txt
 
 The tool will display common lines between the files and highlight the differences.
