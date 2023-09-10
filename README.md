@@ -2,13 +2,6 @@
 
 A tool for comparing the similarity between two files using the `diff` and `grep` commands. This tool is designed for checking the differences between two text-based files and highlighting the matching lines.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Examples](#examples)
 
 ## Introduction
 
