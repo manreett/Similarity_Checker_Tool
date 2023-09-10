@@ -29,6 +29,6 @@ Before you begin, ensure you have met the following requirements:
 
 2. Navigate to the project directory:
 
-   '''
+   '''bash
    cd Similarity_Checker_Tool
 
