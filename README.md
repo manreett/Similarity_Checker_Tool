@@ -34,7 +34,15 @@ Before you begin, ensure you have met the following requirements:
 
 ## Usage
    ```bash
-./compare.sh file1.txt file2.txt
+   ./compare.sh file1.txt file2.txt
 
 - file1.txt: The first text file for comparison.
 - file2.txt: The second text file for comparison.
+
+## Example
+Suppose you have two text files, file1.txt and file2.txt. To check their similarity, run:
+    ```bash
+    ./compare.sh file1.txt file2.txt
+
+The tool will display common lines between the files and highlight the differences.
+
